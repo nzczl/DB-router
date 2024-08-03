@@ -1,0 +1,4 @@
+该分库分表组件，通过两个注解来快速实现分库分表配置@DBRouter，@DBRouterStrategy
+@DBRouter代表是分库的，但不一定是分表，在mapper接口里的方法使用，需要配置或者赋值value
+@DBRouterStrategy是既分库有分表但是，需要在mapper接口上实现，且value要为true
+在yml文件中需要配置属性，其格式如下在源码里的yml文件
